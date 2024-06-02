@@ -1,0 +1,849 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F7F4F2;
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem 0;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    margin: 0 1rem;
+    list-style: none;
+}
+
+
+header img{
+    width: 15rem;
+}
+
+li a, #hero p, a, .info p, .opinion-sarah p, .opinion-sarah h4, .about-kelsey h4, .about-kelsey p, .ratings p, .booking p, .ten-questions p, .network h5, .network p, .network div:last-child h5, .cup p, .cup h3, .level-up p, .kelsey-info p, .list p, .menu-hamb h3{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+h1, .info h2, .opinion-sarah h3, .featured-work h2, .works h3, .working h2, .about-kelsey h3, .ratings h3, .booking h3, .ten-questions h4, .network h4, #made-human h1, .level-up h2, .kelsey-info h2, .kelsey-info h3, .list h3{
+    font-family: "Playfair Display", serif;
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+li a, .network a{
+    font-size: .9rem
+}
+.succesful-brands h3, .info h3, .works h4, .work-together h5, .ratings h4, .ten-questions h5, .rights h5, .rights a, .level-up h3, .list li{
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+h1, .featured-work h2, .working h2, .about-kelsey h3, #made-human h1, .kelsey-info h2{
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+
+
+
+.opinion-sarah h3, .opinion-sarah p, .opinion-sarah h4, .working h2, .work-together h5, .network a, .network h4, .network p, .network div:last-child h5, .rights h5, .rights a{
+    color: white;
+}
+
+a, .network .button{
+    text-decoration: none;
+    color: rgb(16, 15, 15);
+    
+}
+
+a, .info h3, .works h4, .work-together h5, .ratings h4, .ten-questions h5, .cup h3, .level-up h3, .list li{
+    text-transform: uppercase;
+}
+.ten-questions h4{
+    text-transform: capitalize;
+}
+.button{
+    font-weight: 600;
+    background-color: #EDE6D9;
+    width: fit-content;
+    padding: .5rem 1.2rem;
+}
+.button:hover{
+    opacity: 0.9;
+}
+.rights h5, .posts a{
+    font-size: .7rem;
+}
+
+#hero p, .info p, .about-kelsey p, .ratings p, .booking p, .ten-questions p, .network p, .cup h3, .cup p, .level-up p, .kelsey-info p, .list p{
+    font-weight: 300;
+    padding-bottom: 1rem;
+}
+
+span, .about-kelsey h4, .network div:first-child a, .network div:last-child h5{
+    font-weight: bold
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 9rem 0;   
+}
+
+.connecting-brands{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+#hero img{
+    width: 27rem;
+}
+
+.connecting-brands div, .cup div{
+    padding: 0 5rem;
+}
+
+
+.succesful-brands{
+   text-align: center;
+   background-color: white;
+   padding-top: 6rem;
+   padding-bottom: 12rem;
+}
+.succesful-brands h3{
+    padding-bottom: 2rem;
+}
+
+.succesful-brands div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.succesful-brands img{
+    width: 9rem;
+    margin: 0 1.5rem;
+}
+
+.marketing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 0;
+}
+
+.marketing img{
+    width: 100%;
+}
+
+.connect{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider{
+    width: 25rem;
+    overflow: hidden;
+    display: flex;
+}
+
+.info{
+    margin-right: 8rem;
+}
+
+.info p, .ratings p, .network p, .cup p, .level-up p, .kelsey-info p:first-of-type{
+    padding: 0;
+}
+
+.info p:last-of-type{
+    padding-bottom: 1rem;
+}
+
+#opinion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("Img/background-green.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 35rem;
+}
+
+.opinion-sarah{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#opinion img{
+    width: 21rem;
+}
+
+.opinion-sarah div{
+    margin-right: 3rem;
+}
+
+.featured-work{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.works{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.works img{
+    width: 24rem;
+}
+
+.featured-work{
+    padding: 4rem 0;
+}
+.works div{
+    padding: 3rem 0;
+}
+
+.featured-work h2{
+    padding-bottom: 3rem;
+}
+
+.working{
+    background-color: #A88C31;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 7rem;
+}
+
+.work-together{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    margin: 0 1rem;
+    border-top: solid 1px white;
+    width: 22rem;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.card-bottom{
+    border-bottom: solid 1px white;
+}
+
+.working h2{
+    padding: 6rem 0;
+}
+
+.kelsey{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* position: relative;
+    height: 39rem; */
+}
+
+.about-kelsey{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-kelsey img{
+    width: 39rem;
+    height: 100%;
+}
+
+.about-kelsey div{
+  margin: 0 7rem;
+}
+.opinions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 30rem;
+}
+
+.bigger{
+    width: 100rem;
+    overflow: hidden;
+}
+
+.ratings{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 394rem;
+    text-align: center;
+    transition: transform .4s;
+}
+.arrows{
+    position: absolute;
+    bottom: 21rem;
+    right: 25rem;
+}
+
+.arrows img{
+    width: 2rem;
+    padding: .4rem;
+    cursor: pointer;
+}
+
+.left-arrow{
+    opacity: 0.6;
+}
+
+.ratings div{
+    width: 100%;
+}
+
+.op-card{
+    display: none;
+}
+
+.booking{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+}
+
+.booking div{
+    padding: 4rem 0;
+}
+.booking img{
+    width: 8rem;
+    margin-top: -3rem;
+}
+
+.ten-questions, .inspired{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 0;
+}
+
+.ten-questions > div{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+.ten-questions div div{
+    padding: 0 2rem;   
+}
+
+.ten-questions img{
+    width: 13rem;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #657258;
+    flex-flow: row wrap;
+}
+
+.network{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.network img{
+    width: 1rem;
+    margin: 0 .5rem;
+}
+
+.network div:first-child h5, .cup h3, .ten-questions h4{
+    margin: 0;
+}
+
+.network div div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.posts{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 0;
+}
+.post{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 8rem;
+    width: 10rem;
+    margin: 0 .5rem;
+}
+.post1{
+    background-image: url("Img/post1.jpeg");
+}
+
+.post2{
+    background-image: url("Img/post2.jpeg");
+}
+.post3{
+    background-image: url("Img/post3.jpeg");
+}
+.post4{
+    background-image: url("Img/post4.jpeg");
+}
+.post5{
+    background-image: url("Img/post5.jpeg");
+}
+.post6{
+    background-image: url("Img/post6.jpeg");
+}
+
+.posts a, .rights a{
+    text-transform: none;
+}
+
+.rights{
+    text-align: center;
+    padding: 1rem;
+}
+
+
+
+#made-human{
+    background-image: url("Img/about-background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 53rem;
+}
+
+#made-human img{
+    width: 27rem;
+}
+
+.cup{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.level-up{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    padding: 3rem 0;
+}
+
+.level-up img{
+    width: 3rem;
+    position: absolute;
+    left: 16rem;
+    bottom: 25.7rem;
+}
+
+.level-up div{
+    padding-right: 13rem;
+    padding-top: 5rem;
+}
+
+.kelsey-info img{
+    width: 21rem;
+    border-radius: 17rem 17rem 0 0;
+}
+
+#copywriting-kelsey{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 6rem 0;
+}
+
+.kelsey-info, .list{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+.kelsey-info div:first-child{
+    padding: 0 7rem;
+}
+.kelsey-info div:last-child{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inspired ul{
+    display: flex;
+    flex-direction: column;
+    width: 35rem;
+}
+
+.list{
+    align-items: normal;
+}
+.list li{
+    cursor: pointer;
+    font-weight: 400;
+    padding: 1rem;
+    position: relative;
+    width: 100%;
+    margin: 1rem 0;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.203);
+}
+
+.line, .line2, .line3, .line4{
+    background-color: black;
+    height: 1px;
+    width: 1rem;
+    display: block;
+    position: absolute;
+    left: 33rem;
+    bottom: 2rem;
+}
+
+.line::after, .line2::after, .line3::after, .line4::after{
+    content: '';
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    transform: rotate(90deg);
+}
+.dropdown, .dropdownx{
+    padding: 0 2rem;
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.line-more, .line-more2, .line-more3, .line-more4{
+    cursor: pointer;
+    padding: 2rem;
+}
+
+.more, .more2, .more3, .more4{
+    display: none;
+}
+
+.more:checked ~ .line-more .line::after, .more2:checked ~ .line-more2 .line2::after, .more3:checked ~ .line-more3 .line3::after,  .more4:checked ~ .line-more4 .line4::after{
+    transform: rotate(180deg);
+}
+.menu-lateral{
+    display: none;
+}
+
+.hamb{
+    cursor: pointer;
+    padding: 2rem;
+    position: relative;
+    right: 22rem;
+    z-index: 1;
+    visibility: hidden;
+}
+
+.active{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+.hamb-line{
+    display: block;
+    width: 1.5rem;
+    height: 2px;
+    background-color: #D5C698;
+    position: relative;
+}
+.hamb-line::after, .hamb-line::before{
+    content: '';
+    background-color: #D5C698;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.hamb-line::before{
+    bottom: .3rem;
+}
+.hamb-line::after{
+    top: .3rem;
+}
+
+.menu-hamb{
+    background-color: #F7F4F2;
+    position: absolute;
+    top: 0rem;
+    width: 100%;
+    height: 57rem;
+    right: 28rem;
+    visibility: hidden;
+}
+
+.menu-hamb a{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.menu-hamb h3{
+    margin-left: 2rem;
+}
+
+.menu-lateral:checked ~ .hamb .hamb-line::before{
+    transform: rotate(-45deg);
+    top: 0;
+}
+.menu-lateral:checked ~ .hamb .hamb-line{
+    background-color: transparent;
+}
+.menu-lateral:checked ~ .hamb .hamb-line::after{
+    transform: rotate(45deg);
+    top: 0;
+}
+.menu-lateral:checked ~ .menu-hamb{
+    right: 0;
+    visibility: visible;
+    transition: right .2s ease-out;
+}
+
+@media screen and (max-width: 450px) {
+        #hero img{
+            width: 22rem;
+        }
+        .hamb{
+            right: 24rem;
+        }
+
+    }
+    @media screen and (min-width:1500px) and (max-width: 1923px) {
+    header nav{
+        margin-left: 7rem;
+    }
+    .works div{
+        padding: 3rem;
+    }
+    .work-together .card:nth-of-type(5), .work-together .card:nth-of-type(7){
+        border-bottom: solid 1px white;
+    }
+    .card-bottom:last-child{
+        border-top: none;
+    }
+    .card:nth-of-type(6){
+        border-bottom: solid 1px white;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    header{
+        height: 3rem
+    }
+    nav{
+        visibility: hidden;
+    }
+    header img{
+        width: 13rem;
+    }
+    header > a{
+        margin: 0 .5rem;
+    }
+    .hamb{
+        visibility: visible;
+    }
+    #hero{
+        margin: 3rem 0;
+    }
+    #hero img, .slider{
+        width: 23rem;
+    }
+
+    .succesful-brands img{
+        margin: 4rem 1.5rem;
+    }
+    .succesful-brands h3, .works h4, .working h2, .ratings h3, .ratings h4, .booking h3, .ten-questions h5, .ten-questions h4{
+        font-weight: bold;
+    }
+    .info{
+        margin: 0;
+        padding: 0 4rem;
+    }
+
+    .info .button{
+        margin: 0 2rem;
+    }
+
+    .marketing img{
+        padding: 3rem 0;
+    }
+
+    #opinion{
+        height: 48rem;
+    }
+
+    .opinion-sarah div{
+        text-wrap: wrap;
+        padding: 0 3rem;
+        margin: 0;
+    }
+    .works div{
+        padding: 3rem 0;
+    }
+
+    .working h2{
+        font-size: 2rem;
+        text-align: center;
+        text-wrap: nowrap;
+    }
+
+    .about-kelsey img{
+        width: 100%;
+    }
+    .about-kelsey div{
+        margin: 0 3rem;
+    }
+
+    .about-kelsey h2{
+        text-wrap: balance;
+    }
+    .kelsey{
+        padding-bottom: 5rem;
+    }
+    .about-kelsey p, .ten-questions p{
+        font-size: 1rem;
+    }
+
+    .bigger{
+        width: 100%;
+    }
+    .ratings{
+        position: relative;
+        right: 37rem;
+    }
+    .ratings h3{
+        font-size: 1.1rem;
+    }
+    .ratings p{
+        font-size: .54rem;
+    }
+    .arrows{
+        right: 0;
+        /* bottom: 19rem; */
+    }
+    .arrows img{
+        width: 1rem;
+    }
+    .booking{
+        border: solid 1px #000000c2;
+    }
+    .booking div{
+        padding: 4rem 1rem;
+        padding-top: 1rem;
+    }
+    .ten-questions div div{
+        text-align: center;
+    }
+    .ten-questions h4{
+        text-wrap: pretty;
+    }
+
+    .network{
+        flex-direction: column;
+        padding: 6rem 0;
+    }   
+    .connect{
+        flex-flow: row wrap;
+    }
+    
+}
+
+
+@media screen and (max-width: 1024px) {
+    .connect{
+        padding: 0 3rem;
+        flex-flow: row;
+    }
+    .info p{
+        text-wrap: balance;
+    }
+    .about-kelsey{
+        padding-bottom: 4rem;
+    }
+    .about-kelsey img{
+        width: 26rem;
+    }
+    .opinions{
+        border: solid 1px #0000009e;
+    }
+    .card-bottom:last-child{
+        border-top: none;
+    }
+}
+@media screen and (max-width: 1280px) {
+    header{
+        border-bottom: solid 1px #0000009e;
+    }
+    .about-kelsey{
+        flex-flow: row;
+    }
+    .succesful-brands{
+        border: solid 1px #0000009e;
+    }
+    .booking div{
+        padding: 4rem 1rem;
+        padding-top: 1rem;
+    }
+}
+@media screen and (max-width: 430px) {
+    
+    
+    #hero img{
+        width: 22rem;
+    }
+    .hamb{
+        right: 21rem;
+    }
+    
+}
