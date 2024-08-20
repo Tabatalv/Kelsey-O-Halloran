@@ -847,3 +847,13 @@ footer{
     }
     
 }
+
+@media screen and (min-width:2000px) {
+    .esp{
+        border-bottom: solid 1px blue;
+    }
+    .works div{
+        padding: 3rem 4rem;
+    }
+    
+}
